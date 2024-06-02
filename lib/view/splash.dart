@@ -1,5 +1,6 @@
-import 'package:coffe/view/home.dart';
 import 'package:flutter/material.dart';
+
+import 'home.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

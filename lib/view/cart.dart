@@ -1,6 +1,7 @@
-import 'package:coffe/controller/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../controller/controller.dart';
 
 // ignore: must_be_immutable
 class Cart extends StatelessWidget {

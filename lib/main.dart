@@ -1,6 +1,6 @@
-import 'package:coffe/view/home.dart';
-import 'package:coffe/view/splash.dart';
 import 'package:flutter/material.dart';
+
+import 'view/splash.dart';
 
 void main() {
   runApp(const MyApp());

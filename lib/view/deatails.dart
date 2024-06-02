@@ -1,8 +1,9 @@
-import 'package:coffe/controller/controller.dart';
-import 'package:coffe/model/modelData.dart';
-import 'package:coffe/view/cart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../controller/controller.dart';
+import '../model/modelData.dart';
+import 'cart.dart';
 
 // ignore: must_be_immutable
 class Deatails extends StatelessWidget {
