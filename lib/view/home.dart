@@ -58,7 +58,7 @@ class Home extends StatelessWidget {
                     ],
                   ),
                 ),
-                height: 50,
+                height: 55,
                 width: 390,
                 decoration: BoxDecoration(
                   color: Colors.white24,
@@ -128,37 +128,35 @@ class Home extends StatelessWidget {
                         ),
                       ],
                     ),
-                    height: 400,
+                    height: 900,
                     width: 100,
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Image.asset(
-                            control1.model.data[raneem].image,
-                            height: 100,
-                          ),
-                          Text(
-                            control1.model.data[raneem].title,
-                            style: TextStyle(color: Colors.white, fontSize: 20),
-                          ),
-                          Text(control1.model.data[raneem].subTitle,
-                              style: TextStyle(
-                                  color: Colors.white60, fontSize: 15)),
-                          Row(
-                            children: [
-                              Text(
-                                "Price",
-                                style: TextStyle(color: Colors.orange),
-                              ),
-                              Text(control1.model.data[raneem].price,
-                                  style: TextStyle(
-                                      color: Colors.white, fontSize: 15)),
-                            ],
-                          )
-                        ],
-                      ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Image.asset(
+                          control1.model.data[raneem].image,
+                          height: 100,
+                        ),
+                        Text(
+                          control1.model.data[raneem].title,
+                          style: TextStyle(color: Colors.white, fontSize: 20),
+                        ),
+                        Text(control1.model.data[raneem].subTitle,
+                            style:
+                                TextStyle(color: Colors.white60, fontSize: 15)),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "Price",
+                              style: TextStyle(color: Colors.orange),
+                            ),
+                            Text(control1.model.data[raneem].price,
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 15)),
+                          ],
+                        )
+                      ],
                     ),
                   ),
                 ),

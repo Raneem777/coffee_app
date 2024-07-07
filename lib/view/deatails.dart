@@ -109,7 +109,7 @@ class Deatails extends StatelessWidget {
                     },
                   ),
                   height: 50,
-                  width: 300,
+                  width: 250,
                   decoration: BoxDecoration(
                       color: Colors.white12,
                       borderRadius: BorderRadius.circular(15)),

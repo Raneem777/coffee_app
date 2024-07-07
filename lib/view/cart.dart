@@ -30,12 +30,12 @@ class Cart extends StatelessWidget {
                         height: 100,
                         width: 400,
                         child: Padding(
-                          padding: const EdgeInsets.all(8.0),
+                          padding: const EdgeInsets.all(4),
                           child: Row(
                             children: [
                               Image.asset(control3.cartList[index].image),
                               Padding(
-                                padding: const EdgeInsets.all(25),
+                                padding: const EdgeInsets.fromLTRB(2, 25, 0, 0),
                                 child: Column(
                                   children: [
                                     Text(
@@ -101,7 +101,7 @@ class Cart extends StatelessWidget {
       bottomNavigationBar: Container(
         child: TextButton(
           child: Text(
-            "Add to cart",
+            "Ship Now",
             style: TextStyle(color: Colors.white),
           ),
           onPressed: () {},
